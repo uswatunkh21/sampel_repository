@@ -1,0 +1,15 @@
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="HOT" description="Mapping Jakarta Presets" shortdescription="Community Mapping Presets" version="1.0">
+	<item name="kantor pemerintahan">
+        <key key="building" value="yes" />
+        <text key="name" text="nama" />
+		<combo key="building:levels" text="jumlah tingkat" values="1,2,3,4-7,>7"/>
+		<combo key="access:roof" text="akses ke atap" values="no,yes" display_values="tidak,ya"/>
+		<text key="capacity:persons" text="kapasitas"/>
+		<combo key="building:structure" text="struktur bangunan"  values="reinforced_masonry,unreinforced_masonry,plastered,confined_masonry" display_values="Tembok dengan penguat beton bertulang,Tembok tanpa penguat beton bertulang,Tembok berplester,Rangka beton bertulang" />
+		<combo key="building:walls" text="tipe dinding" values="brick,wood,bamboo,tin" display_values="bata (brick),papan kayu (wood),bamboo (bamboo),seng (tin)" />
+		<combo key="building:roof" text="tipe atap" values="tile,tin,asbestos,concrete" display_values="genteng (tile),seng (tin),asbes (asbestos),beton (concrete)" />
+		<text key="addr:full" text="alamat"/>
+		<text key="hot:training:nick_name" text="Nick Name" />
+		<combo key="hot:training:rating" text="Rating" values="1,2,3,4,5" />
+	</item>
+</presets>
